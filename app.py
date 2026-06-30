@@ -45,7 +45,7 @@ if menu == "🏠Home":
     st.subheader("World Travel & Exploration System")
     
     st.image(
-        r"c:\Users\Kavya\Downloads\World Trip.jpg",
+        "images/World Trip.jpg",
         width=500
     )
     st.markdown("""
@@ -84,31 +84,31 @@ elif menu == "🌍Explore Destinations":
             "country": "France",
             "type": "City",
             "budget": 150000,
-            "image": r"c:\Users\Kavya\Downloads\paris.jpg"
+            "image": "images/paris.jpg"
         },
         "Dubai": {
             "country": "UAE",
             "type": "Luxury",
             "budget": 120000,
-            "image":r"c:\Users\Kavya\Downloads\Dubai.jpg"
+            "image":"images/Dubai.jpg"
         },
         "Maldives": {
             "country": "Maldives",
             "type": "Beach",
             "budget": 180000,
-            "image":r"c:\Users\Kavya\Downloads\maldives.jpg"
+            "image":"images/maldives.jpg"
         },
         "Tokyo": {
             "country": "Japan",
             "type": "City",
             "budget": 200000,
-            "image":r"c:\Users\Kavya\Downloads\Japan.jpg"
+            "image":"images/Japan.jpg"
         },
         "Bali": {
             "country": "Indonesia",
             "type": "Island",
             "budget": 100000,
-            "image":r"c:\Users\Kavya\Downloads\bali.jpg"
+            "image":"images/bali.jpg"
         }
     }
 
@@ -282,7 +282,7 @@ elif menu == "🛩️Select Your Destination":
         "country": "France",
         "type": "City",
         "budget": 150000,
-        "image": r"c:\Users\Kavya\Downloads\paris.jpg",
+        "image": "images/paris.jpg",
         "places": [
             "Eiffel Tower",
             "Louvre Museum",
@@ -295,7 +295,7 @@ elif menu == "🛩️Select Your Destination":
         "country": "UAE",
         "type": "Luxury",
         "budget": 120000,
-        "image":r"c:\Users\Kavya\Downloads\Dubai.jpg",
+        "image":"images/Dubai.jpg",
         "places": [
             "Burj Khalifa",
             "Dubai Mall",
@@ -308,7 +308,7 @@ elif menu == "🛩️Select Your Destination":
         "country": "Maldives",
         "type": "Beach",
         "budget": 180000,
-        "image":r"c:\Users\Kavya\Downloads\maldives.jpg",
+        "image":"images/maldives.jpg",
         "places": [
             "Male City",
             "Maafushi Island",
@@ -321,7 +321,7 @@ elif menu == "🛩️Select Your Destination":
         "country": "Japan",
         "type": "City",
         "budget": 200000,
-        "image":r"c:\Users\Kavya\Downloads\Japan.jpg",
+        "image":"images/Japan.jpg",
         "places": [
             "Tokyo Tower",
             "Shibuya Crossing",
@@ -334,7 +334,7 @@ elif menu == "🛩️Select Your Destination":
         "country": "Indonesia",
         "type": "Island",
         "budget": 100000,
-        "image":r"c:\Users\Kavya\Downloads\bali.jpg",
+        "image":"images/bali.jpg",
         "places": [
             "Ubud",
             "Tanah Lot Temple",
