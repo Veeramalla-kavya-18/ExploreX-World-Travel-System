@@ -9,7 +9,7 @@ st.set_page_config(
 
 # Sidebar menu
 st.sidebar.image(
-        r"c:\Users\Kavya\Downloads\logo.png",
+        "images/logo.png",
         width=180
     )
 st.sidebar.markdown("## Navigation")
